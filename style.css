@@ -1,0 +1,27 @@
+* {
+    color:aliceblue;
+}
+
+.row {
+    display: flex;
+    background-color: white;
+}
+
+.col, .col-2, .col-3{
+    height: 50px;
+    background-color: #66a2ab;
+    margin: 10px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2; 
+}
+
+.col-3 {
+    flex: 3;
+}
